@@ -30,11 +30,9 @@ footer{
 }
 
 .link:hover,
-.link:focus {
-    color: #404BBF;
-}
-
+.link:focus,
 .link:active {
+    color: #404BBF;
     text-decoration: underline;
 }
 
