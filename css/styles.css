@@ -1,10 +1,11 @@
 body{
-    font-family: 'Roboto','Raleway', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #FFF;
+    color:#434455;
 }
 
 header{
@@ -20,10 +21,10 @@ footer{
 }
 
 .link {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.04em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: #2E2F42;
 }
@@ -33,15 +34,20 @@ footer{
     color: #404BBF;
 }
 
-.button{
-    color: #FFFFFF;
-    background-color: #4D5AE5;
-    cursor: pointer;
+.studio-link:active {
+    text-decoration: underline;
 }
 
-.button:hover,
-.button:focus{
-    background-color: #404BBF;
+.mail-tell-data{
+    font-style: normal;
+}
+
+.mail{
+    color:#434455;
+}
+
+.tell{
+    color:#434455;
 }
 
 .hero{
@@ -57,53 +63,72 @@ footer{
     font-size: 56px;
     line-height: 1.07;
     color:#FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
-.logo-top{
+.button {
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
     color: #2E2F42;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-decoration: none;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
 
-.logo-down {
-    color: #F4F4FD;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-decoration: none;
+
+
+.logo-top{
+    color:#2e2f42;
 }
 
-.logo-web{
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    color:#4D5AE5;
+.logo-bottom{
+    color:#f4f4fd;
 }
 
 .title{
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.11;
     color:#2E2F42;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .subtitle{
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color:#2E2F42;
 }
 
-
-.studio-link:active{
-    text-decoration: underline;
+.text{
+    color:#434455;
+    font-size:16px;
 }
 
-.list>p{
-    color: #434455;
+.item{
+    background-color: #FFFFFF;
 }
 
 .slogan{
